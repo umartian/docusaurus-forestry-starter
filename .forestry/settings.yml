@@ -5,6 +5,26 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: docs/training
+  label: training
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/tech-support
+  label: tech-support
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/lms
+  label: lms
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/faqs
+  label: faqs
+  create: all
+  match: "**/*"
+- type: directory
   path: docs/client
   label: client
   create: all
