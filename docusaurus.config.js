@@ -8,19 +8,22 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       links: [
         {
-          to: 'docs/',
+          to: 'docs/training/training-abcm',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'trainings',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/tech-support/tech-abcm', label: 'Tech support', position: 'left'},
+        {to: 'docs/client/client-abcm', label: 'Clients', position: 'left'},
+        {to: 'docs/lms/lms-abcm', label: 'LMS', position: 'left'},
+        {to: 'docs/faqs/faqs-abcm', label: 'FAQs', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
